@@ -2,10 +2,17 @@
   "candidate": "williammorenosaavedra5@gmail.com",
   "candidate_name": "[COMPLETAR: nombre y apellidos]",
   "models_and_tools": [
-    {"tool": "Claude Code (extensión VS Code)", "model": "claude-opus-5-5"}
+    {"tool": "Claude Code (extensión VS Code)", "model": "claude-opus-5-5"},
+    {"tool": "Python", "model": "3.15.0 (biblioteca estándar)"}
   ],
   "evaluated_file": "candidate_strategy.py",
-  "generated_artifacts": ["generated_artifacts/.gitkeep"],
+  "generated_artifacts": [
+    "generated_artifacts/.gitkeep",
+    "generated_artifacts/analyze_data.py",
+    "generated_artifacts/sweep.py",
+    "generated_artifacts/make_scenarios.py",
+    "generated_artifacts/test_mi_estrategia.py"
+  ],
   "conversation_files": ["ai_conversations/session-01.md"],
   "redactions": [],
   "declaration": "He revisado y asumo la responsabilidad de la entrega final."
